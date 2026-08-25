@@ -5,3 +5,7 @@ on: workflow_dispatch
 jobs:
   panggil-robot:
     uses: ashif-dev/belajar-actions/.github/workflows/robot-bersama.yml@main
+    with:
+      nama-proyek: aplikasi-pembayaran
+      jumlah-ulangan: 3
+      pakai-huruf-besar: true
