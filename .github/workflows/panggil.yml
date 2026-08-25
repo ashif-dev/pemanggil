@@ -1,0 +1,7 @@
+name: Memanggil Robot Bersama
+
+on: workflow_dispatch
+
+jobs:
+  panggil-robot:
+    uses: ashif-dev/belajar-actions/.github/workflows/robot-bersama.yml@main
